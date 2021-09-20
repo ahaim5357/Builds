@@ -1,0 +1,4 @@
+net.ashwork.upvote.database.domain.algorithm
+net.ashwork.upvote.database.domain.dao
+net.ashwork.upvote.database.manager
+net.ashwork.upvote.database.util

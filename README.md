@@ -11,4 +11,8 @@ https://docs.ahaim.ashwork.net/<group>/<artifact_id>/<version>
 
 | Name | Version |
 | :--- | :---: |
+| [UpVote][upvote-1.0.0] | 1.0.0 |
+| [UpVote - Database][upvote-database-1.0.0] | 1.0.0 |
 
+[upvote-1.0.0]: ./net/ashwork/upvote/1.0.0/
+[upvote-database-1.0.0]: ./net/ashwork/upvote-database/1.0.0/
