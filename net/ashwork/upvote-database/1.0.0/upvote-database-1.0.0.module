@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.ashwork",
+    "module": "upvote-database",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "net.ashwork",
+          "module": "upvote",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "upvote-database-1.0.0.jar",
+          "url": "upvote-database-1.0.0.jar",
+          "size": 9628,
+          "sha512": "ebfa222444596588a8c59d209078e85ef0b8d45dab40eec31e9f916932bd8e4a79b175a7a226fa93de3c68abce5e666e113ecd7f882e1dad33d4b79392ad8dd3",
+          "sha256": "cb95d855583eea8c5ae4195aa246f21c5a576451c911169ab566030d99152503",
+          "sha1": "997583bdbb3d23f16906c905d9fd280d31178c09",
+          "md5": "22862117a0fcbb5aae2a33d0dfb916e4"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.ashwork",
+          "module": "upvote",
+          "version": {
+            "requires": "1.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "upvote-database-1.0.0.jar",
+          "url": "upvote-database-1.0.0.jar",
+          "size": 9628,
+          "sha512": "ebfa222444596588a8c59d209078e85ef0b8d45dab40eec31e9f916932bd8e4a79b175a7a226fa93de3c68abce5e666e113ecd7f882e1dad33d4b79392ad8dd3",
+          "sha256": "cb95d855583eea8c5ae4195aa246f21c5a576451c911169ab566030d99152503",
+          "sha1": "997583bdbb3d23f16906c905d9fd280d31178c09",
+          "md5": "22862117a0fcbb5aae2a33d0dfb916e4"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "upvote-database-1.0.0-sources.jar",
+          "url": "upvote-database-1.0.0-sources.jar",
+          "size": 13683,
+          "sha512": "5fabf8f95ec9862b1fa4f9f946c9edfba3e60d8179b3b68a2a7e36aa5c4369fcb13dc85f9c272ead1cf381d6dc6a70ac39cf594d6c20ce0c9edd737f03320f37",
+          "sha256": "82a390afe699bdffecca96f65f994b81235bc716915d80f7931ad48406da4251",
+          "sha1": "ee80c3795901cf1175a289d6e5fd697e7d21ee11",
+          "md5": "924b10719b05018010170cde0fb6bd04"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "upvote-database-1.0.0-javadoc.jar",
+          "url": "upvote-database-1.0.0-javadoc.jar",
+          "size": 58043,
+          "sha512": "febffcadc18b60a01512dc00e6d459ffc8d15986240465c16b2582004c651bbf1496a1bcd5eaa2435a2a7496fb0cf380d771458304e585cc317823e48f909d64",
+          "sha256": "c0f958d3c848607f7e76ba60fcb64d981ea4bc3f64b8eae2c30d80af66e1c2eb",
+          "sha1": "04df0c70dddf9489f58cc38d721ea68b5ce9b608",
+          "md5": "23367efc10bb33cdd52234c39eb8e4da"
+        }
+      ]
+    }
+  ]
+}
