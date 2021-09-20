@@ -18,8 +18,8 @@ These projects use [Semantic Versioning][semver] as their version number. The fo
 
 | Name | Artifact Id | Version | Maven Central |
 | :--- | :---: | :---: | :---: |
-| [UpVote][upvote] | upvote | 1.0.0 | ❌ |
-| [UpVote - Database][upvote] | upvote-database | 1.0.0 | ❌ |
+| [UpVote][upvote] | upvote | 1.0.0 | ✔️ |
+| [UpVote - Database][upvote] | upvote-database | 1.0.0 | ✔️ |
 
 
 # End of Life Projects
